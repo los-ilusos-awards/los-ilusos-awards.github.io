@@ -1,0 +1,49 @@
+*{
+    background-color: #1a1819;
+}
+.contenedor{
+
+}
+.titulo{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contenedor-imagen{
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+}
+.imagen-ilusos{
+    align-content: center;
+    border-radius: 50%;
+    animation-name: ilusos;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes ilusos {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.cont-imagen-logo{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    margin-top: 50px;
+}
+.imagen-logo{
+    align-self: center;
+}
+.separador{
+    color: white;
+    background-color: white;
+}
+.separacion{
+    height: 2px;
+    width: 100%;
+    background-color: #dfdbdb;
+}
