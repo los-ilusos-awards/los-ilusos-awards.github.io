@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
     <link rel="stylesheet" href="style.css" type="text/css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,7 +24,7 @@
         <div class="separacion"></div>
       </section>
 
-      <h1 class="titulo">
+      <h1 class="titulo-page">
         Quedan pocos días para sumergirte en la experiencia más ilusa
       </h1>
 
@@ -105,13 +104,21 @@
         </div>
       
     </div>
-    <div id="cajacookies">
-<p><button onclick="aceptarCookies()" class="pull-right"><i class="fa fa-times"></i> Aceptar y cerrar éste mensaje</button>
-Éste sitio web usa cookies, si permanece aquí acepta su uso.
-Puede leer más sobre el uso de cookies en nuestra <a href="politica.html">política de privacidad</a>.
-</p>
-</div>
+        <div class="aviso-cookies activo" id="aviso-cookies">
+            <img class="img-galleta" src="imagenes\galletita.png" alt="galleta">
+            <div class="titulo">Cookies</div>
+            <div class="parrafo">Utilizamos cookies propias y de terceros
+                para mejorar nuestros servicios.
+            </div>
+            <button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
+            <a class="enlace" href="#home">Aviso de cookies</a>
+        </div>
+        <div class="fondo-aviso-cookies activo" id="fondo-aviso-cookies"></div>
+   
+     
 
+     <script src="index.js"></script>
   </body>
-<script src="index.js></script>
+
+ 
 </html>
