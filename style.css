@@ -5,6 +5,12 @@
 
 }
 .titulo{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
     color: white;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -20,6 +26,8 @@
     animation-name: ilusos;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    width: 400px;
+    height: 400px;
 }
 @keyframes ilusos {
     0%{
@@ -32,11 +40,13 @@
 .cont-imagen-logo{
     display: flex;
     justify-content: space-around;
-    height: 50px;
-    margin-top: 50px;
+    
+    
 }
 .imagen-logo{
     align-self: center;
+    height: 130px;
+    
 }
 .separador{
     color: white;
@@ -46,4 +56,21 @@
     height: 2px;
     width: 100%;
     background-color: #dfdbdb;
+}
+.menu{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    height: 125px;
+}
+.links{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.links:hover{
+    color: blue;
 }
